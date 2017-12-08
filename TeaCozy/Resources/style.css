@@ -1,0 +1,149 @@
+body {
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    vertical-align: center;
+    opacity: 0.9;
+}
+
+h2, h3, h4 {
+  display: block;
+  margin: auto auto;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  background-color: black;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.logo {
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  color: white;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  font-family: helvetica;
+  padding-top: 70px;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  }
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  display: block;
+}
+
+.content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.item span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.item {
+    padding: 30px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
+
+#store {
+    height: 700px;
+    width: 1000px;
+    padding-top: 70px;
+    margin: auto;
+    position: relative;
+    padding-top: 840px;
+}
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+  }
+
+  .location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+footer {
+  text-align: left;
+}
